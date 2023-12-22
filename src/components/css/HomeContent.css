@@ -1,0 +1,597 @@
+.expand {
+  display: content;
+}
+.hide {
+  background: palegreen;
+  overflow: hidden;
+  max-height: 0;
+  display: block;
+}
+.btn1 {
+  background: white;
+  border: none;
+  margin: 20px;
+  margin-left: 160px;
+  color: #00a8b6;
+}
+.container {
+  margin-top: 50px;
+}
+#i1 {
+  padding: 5px;
+  padding-right: 140px;
+}
+#i2 {
+  padding: 5px;
+  padding-right: 180px;
+}
+#i3 {
+  padding: 5px;
+  padding-right: 250px;
+}
+#i4 {
+  padding: 70px;
+}
+#box2 {
+  background: #454f4f;
+  max-width: 400px;
+  max-height: 900px;
+}
+#box1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 400px;
+  margin-bottom: 9px;
+  padding: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  color: white;
+}
+input {
+  border: none;
+  border-radius: 2px;
+}
+
+#l {
+  color: #00a8b6;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+}
+#c4 {
+  max-width: 350px;
+}
+
+#size {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.582);
+  margin-right: 30px;
+}
+
+#size1 {
+  color: rgba(0, 0, 0, 0.582);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+#box2p {
+  color: white;
+}
+
+#box2h1 {
+  color: white;
+  font-size: 30px;
+}
+#box2p1 {
+  color: white;
+  font-size: 15px;
+}
+#box2button {
+  margin-left: 10px;
+  width: 300px;
+  height: 40px;
+  color: white;
+  background-color: #00a8b6;
+  border: none;
+}
+
+#box2button1 {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 300px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.842);
+  border-style: groove;
+  font-size: 14px;
+  padding: 5px;
+}
+
+#bb1 {
+  border: none;
+  background-color: white;
+  color: #00a8b6;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#pp1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5b6a6a;
+}
+#pp2 {
+  color: #5b6a6a;
+}
+#pp3 {
+  text-decoration: none;
+  color: #00a8b6;
+}
+
+@media (max-width: 430px) {
+  #box2 {
+    max-width: 900px;
+    max-height: 900px;
+  }
+  #box1 {
+    max-width: 900px;
+  }
+}
+.contant1 {
+  width: 700px;
+  margin: 40px;
+}
+.content2 {
+  margin: 40px;
+}
+.totalcontent {
+  display: flex;
+}
+@media (max-width: 881px) {
+  .totalcontent {
+    display: block;
+  }
+  #box2 {
+    max-width: 900px;
+    max-height: 900px;
+  }
+  #box1 {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 880px) {
+  #i1 {
+    padding-right: 600px;
+  }
+  #i2 {
+    padding-right: 630px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 710px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 550px;
+  }
+}
+
+@media (max-width: 855px) {
+  #i1 {
+    padding-right: 700px;
+  }
+  #i2 {
+    padding-right: 630px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 710px;
+  }
+  #i4 {
+    padding: 100px;
+  }
+}
+
+@media (max-width: 865px) {
+  #i1 {
+    padding-right: 500px;
+  }
+  #i2 {
+    padding-right: 530px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 610px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 450px;
+  }
+}
+
+@media (max-width: 771px) {
+  #i1 {
+    padding-right: 300px;
+  }
+  #i2 {
+    padding-right: 330px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 410px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 250px;
+  }
+  .contant1 {
+    width: 500px;
+    margin: 40px;
+  }
+}
+@media (max-width: 774px) {
+  .content2 {
+    max-width: 600px;
+    max-height: 900px;
+  }
+}
+@media (max-width: 772px) {
+  .content2 {
+    max-width: 500px;
+    max-height: 900px;
+  }
+}
+
+@media (max-width: 558px) {
+  #i1 {
+    padding-right: 300px;
+  }
+  #i2 {
+    padding-right: 330px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 410px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 250px;
+  }
+}
+
+@media (max-width: 548px) {
+  .contant1 {
+    width: 400px;
+    margin: 40px;
+  }
+  .content2 {
+    max-width: 400px;
+    max-height: 900px;
+  }
+  #i3 {
+    padding-right: 340px;
+  }
+}
+
+@media (max-width: 570px) {
+  #i1 {
+    padding-right: 200px;
+  }
+  #i2 {
+    padding-right: 230px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 310px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 150px;
+  }
+}
+
+@media (max-width: 463px) {
+  #i1 {
+    padding-right: 120px;
+  }
+  #i2 {
+    padding-right: 160px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 210px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 90px;
+  }
+}
+
+@media (max-width: 440px) {
+  .contant1 {
+    width: 300px;
+    margin: 40px;
+  }
+  .content2 {
+    max-width: 300px;
+    max-height: 900px;
+  }
+  #size {
+    font-size: 10px;
+  }
+
+  #size1 {
+    font-size: 15px;
+  }
+  #box2p {
+    font-size: 10px;
+  }
+
+  #box2h1 {
+    font-size: 15px;
+  }
+  #box2p1 {
+    font-size: 15px;
+  }
+  #i1 {
+    padding-right: 90px;
+  }
+  #i2 {
+    padding-right: 120px;
+  }
+  #i3 {
+    padding: 5px;
+    padding-right: 180px;
+  }
+  #i4 {
+    padding: 50px;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 376) {
+  #i1 {
+    padding-right: 40px;
+  }
+  #i2 {
+    padding: 5px;
+    padding-right: 80px;
+  }
+  #i3 {
+    padding: 5px;
+
+    padding-right: 140px;
+  }
+  #i4 {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 353px) {
+  .contant1 {
+    width: 200px;
+    margin: 40px;
+  }
+  .content2 {
+    max-width: 200px;
+    max-height: 900px;
+  }
+}
+
+.card {
+  width: 24rem;
+  margin-left: 20px;
+  margin-top: 70px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: -1;
+}
+#imgg2 {
+  max-width: 78px;
+  margin-right: 15px;
+  padding-left: 0px;
+}
+#c {
+  display: flex;
+}
+#ct {
+  font-size: 14px;
+  color: #5b6a6a;
+  width: 220px;
+  margin-right: 30px;
+}
+#bbtn0 {
+  border: none;
+  background-color: #00a8b6;
+  font-family: sans-serif;
+  color: white;
+  width: 350px;
+  height: 49px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+#star1 {
+  color: #5b6a6a;
+}
+#stargold {
+  color: gold;
+}
+#size11 {
+  color: rgba(0, 0, 0, 0.582);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (max-width: 791px) {
+  .card {
+    width: 20rem;
+    height: 28rem;
+  }
+  #bbtn0 {
+    width: 298px;
+    height: 49px;
+  }
+}
+@media (max-width: 819px) {
+}
+.con {
+  padding-left: 18px;
+  padding-top: 20px;
+}
+#fon {
+  color: #00a8b6;
+}
+#padding {
+  padding: 100px;
+  z-index: -1;
+}
+#b1 {
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #00a8b6;
+  position: absolute;
+  left: 43%;
+}
+#butn {
+  position: absolute;
+  left: 42%;
+  margin-top: 30px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-size: 14px;
+  color: #00a8b6;
+  font-weight: 500;
+}
+#pad {
+  padding-bottom: 100px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e6e6e6;
+  border-radius: px;
+  width: 1200px;
+  margin-left: 30px;
+}
+#pad1 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: #5b6a6a;
+  padding-top: 10px;
+}
+
+@media (max-width: 1160px) {
+  #pad {
+    width: 1000px;
+  }
+}
+@media (max-width: 1041px) {
+  #pad {
+    width: 900px;
+  }
+  #b1 {
+    left: 42%;
+  }
+  #butn {
+    left: 41%;
+  }
+}
+@media (max-width: 1041px) {
+  #pad {
+    width: 900px;
+  }
+}
+@media (max-width: 938px) {
+  #pad {
+    width: 800px;
+  }
+  #b1 {
+    left: 40%;
+  }
+  #butn {
+    left: 39%;
+  }
+}
+@media (max-width: 836px) {
+  #pad {
+    width: 700px;
+  }
+  #b1 {
+    left: 38%;
+  }
+  #butn {
+    left: 36%;
+  }
+}
+@media (max-width: 757px) {
+  #pad {
+    width: 600px;
+  }
+  #b1 {
+    left: 36%;
+  }
+  #butn {
+    left: 34%;
+  }
+}
+@media (max-width: 640px) {
+  #pad {
+    width: 550px;
+  }
+  #b1 {
+    left: 36%;
+  }
+  #butn {
+    left: 31%;
+  }
+}
+@media (max-width: 596px) {
+  #pad {
+    width: 500px;
+  }
+  #b1 {
+    left: 34%;
+  }
+  #butn {
+    left: 29%;
+  }
+}
+@media (max-width: 550px) {
+  #pad {
+    width: 400px;
+  }
+  #b1 {
+    left: 29%;
+  }
+  #butn {
+    left: 24%;
+  }
+}
+@media (max-width: 452px) {
+  #pad {
+    width: 300px;
+    height: 200px;
+  }
+  #b1 {
+    left: 26%;
+    width: 130px;
+    height: 50px;
+  }
+  #butn {
+    left: 23%;
+    width: 160px;
+    height: 50px;
+  }
+}
+.hid1 {
+  display: none;
+}
+.hid2 {
+  display: content;
+  color: white;
+}
