@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Travelopia/static/css/main.3e7a622a.css",
+    "main.js": "/Travelopia/static/js/main.73df6070.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/Travelopia/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/homeimg.jpg": "/Travelopia/static/media/homeimg.1eb9a9c33f673829d58e.jpg",
+    "static/media/card.webp": "/Travelopia/static/media/card.718ef83d397c42d8db6e.webp",
+    "index.html": "/Travelopia/index.html",
+    "main.3e7a622a.css.map": "/Travelopia/static/css/main.3e7a622a.css.map",
+    "main.73df6070.js.map": "/Travelopia/static/js/main.73df6070.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/Travelopia/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e7a622a.css",
+    "static/js/main.73df6070.js"
+  ]
+}
